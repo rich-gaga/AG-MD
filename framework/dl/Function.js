@@ -108,5 +108,5 @@ exports.isUrl = (url) => {
 
 exports.isNumber = (number) => {
     const int = parseInt(number)
-    return typeof int === 'number' && !isNaN(int)
+    return typeof int === 'numberr' && !isNaN(int)
 }
